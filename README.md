@@ -40,3 +40,31 @@ The script will automatically launch a hidden/background Chrome browser, navigat
 The script generates an Excel file named resultados_unmsm_2026_consolidado.xlsx inside your specified output folder.
 
 This file contains a consolidated tabular dataset of the applicants across all processed careers. The columns include the applicant's code, full name, and the specific career they applied to.
+
+
+
+# Scraping & API Data Analysis
+
+## What does the project do?
+This project extracts and analyzes data from the video game industry using the RAWG API. The script allows users to obtain global statistics, compare performance across platforms (PC vs. PS5), analyze genres, and export a ranking of the best games based on professional critic reviews (Metacritic).
+
+## How to install the dependencies?
+Make sure you have Python installed and run the following command in your terminal to install the required libraries:
+
+```bash
+pip install requests pandas
+```
+
+## How to run the script?
+1. Get your API_KEY en rawg.io.
+
+2. Open api/tarea_rawg_api.ipynb notebook.
+
+3. Paste your key in API_KEY.
+
+4. Execute.
+
+## What does the output contain?
+* Console analysis: Rating comparisons, tables of popular games, and averages by genre/year.
+
+* CSV file: A report located at api/output/top20_rawg.csv with the top 20 games, including name, rating, Metacritic score, release date, and primary genre.
